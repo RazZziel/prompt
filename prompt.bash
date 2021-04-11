@@ -135,7 +135,7 @@ function __prompt_command() {
   local dollar="${dollar_color}$"
 
   # Set the PS1 to the new prompt.
-  PS1="${short_pwd}${git_stuff} ${host} ${dollar}${__prompt_no_color} "
+  PS1="${host} ${short_pwd}${git_stuff} ${dollar}${__prompt_no_color} "
 }
 
 # Tell bash about the function above.
